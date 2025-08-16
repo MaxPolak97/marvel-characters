@@ -1,0 +1,38 @@
+{
+    "info": {
+        "artifact_uri": "dbfs:/databricks/mlflow-tracking/2334882449658950/82f228ef006e403a814b02a1de4ce114/artifacts",
+        "end_time": 1755334631948,
+        "experiment_id": "2334882449658950",
+        "lifecycle_stage": "active",
+        "run_id": "82f228ef006e403a814b02a1de4ce114",
+        "run_name": "marvel-demo-run",
+        "start_time": 1755334631124,
+        "status": "FINISHED",
+        "user_id": ""
+    },
+    "data": {
+        "metrics": {
+            "metric1": 1.0,
+            "metric2": 2.0
+        },
+        "params": {
+            "type": "marvel_demo"
+        },
+        "tags": {
+            "git_sha": "1234567890abcd",
+            "mlflow.note.content": "marvel character prediction demo run",
+            "mlflow.runColor": "#da4c4c",
+            "mlflow.runName": "marvel-demo-run",
+            "mlflow.source.name": "/home/max/Projects/marvel-characters/.venv/lib/python3.12/site-packages/ipykernel_launcher.py",
+            "mlflow.source.type": "LOCAL",
+            "mlflow.user": "maxpolak97@gmail.com"
+        }
+    },
+    "inputs": {
+        "model_inputs": [],
+        "dataset_inputs": []
+    },
+    "outputs": {
+        "model_outputs": []
+    }
+}
