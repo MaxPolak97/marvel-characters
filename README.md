@@ -19,7 +19,6 @@ This dataset contains detailed information about Marvel characters (e.g., name, 
 It is used to build classification and feature engineering models for various MLOps tasks, such as predicting character attributes or status.
 
 # Scripts
-
 - `01.process_data.py`: Loads and preprocesses the Marvel dataset, splits into train/test, and saves to the catalog.
 - `02.train_register_fe_model.py`: Performs feature engineering and trains the Marvel character model.
 - `03.deploy_model.py`: Deploys the trained Marvel model to a Databricks model serving endpoint.
